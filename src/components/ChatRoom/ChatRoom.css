@@ -1,0 +1,52 @@
+.Chat-room {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Chat-room header {
+  height: 64px;
+  background-color: white;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.Chat-room footer {
+  height: 64px;
+  background-color: white;
+  border-top: 1px solid #e1e4e8;
+}
+
+.Chat-room header, .Chat-room main {
+  padding: 24px;
+}
+
+.Chat-room footer {
+  padding: 16px;
+}
+
+.Chat-room header, .Side-bar footer  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Chat-room main {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+
+}
+
+.Chat-room header h4 {
+  margin: 0
+}
+
+.Chat-room header p {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.Chat-room header p {
+  font-size: .85rem
+}

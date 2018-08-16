@@ -1,0 +1,58 @@
+.Side-bar {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  padding: 24px;
+  background-color: white;
+  border-right: 1px solid #e1e4e8;
+}
+
+.Side-bar header, .Side-bar footer  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Side-bar header {
+  height: 64px;
+}
+
+.Side-bar footer {
+  height: 64px;
+}
+
+.Side-bar footer h4 {
+  margin: 4px 0;
+}
+
+.Side-bar footer {
+  margin-bottom: 0;
+  margin-top: auto;
+}
+
+.Side-bar main {
+  margin: 32px 0;
+}
+
+.Side-bar nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.Side-bar nav a {
+  color: #0366d6;
+  font-size: 0.95rem;
+}
+
+.Side-bar nav a.active {
+  font-weight: bold;
+}
+
+.Side-bar nav a:hover {
+  color: #0099ff;
+}
+
+.Side-bar nav a:nth-child(n+2) {
+  margin-top: 16px;
+}

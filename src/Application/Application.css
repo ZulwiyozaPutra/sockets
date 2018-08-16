@@ -1,0 +1,30 @@
+main {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh);
+}
+
+a {
+  text-decoration: none;
+}
+
+body > header {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* To horizontally centered */
+  /* align-items: center; */
+  /* To vertically centered */
+  justify-content: center;
+  background-color: #282c34;
+}
+
+/* footer {
+  text-align: center;
+} */
+
+.card {
+  background-color: white;
+  border: 1px solid #e1e4e8;
+}

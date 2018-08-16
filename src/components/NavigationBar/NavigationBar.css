@@ -1,0 +1,32 @@
+.Navigation-bar {
+  display: flex;
+  flex-direction: row;
+  padding: 0 24px;
+}
+
+.Navigation-bar nav {
+  margin-left: auto;
+  margin-right: 0;
+  display: flex;
+}
+
+.Navigation-bar nav a {
+  color: grey;
+}
+
+.Navigation-bar a {
+  color: white;
+}
+
+.Navigation-bar a, .Navigation-bar nav a {
+  font-size: 1.00rem;
+  font-weight: normal;
+}
+
+.Navigation-bar nav a:nth-child(n+1) {
+  margin-left: 24px;
+}
+
+.Navigation-bar nav a:nth-child(n) {
+  margin-left: 24px;
+}

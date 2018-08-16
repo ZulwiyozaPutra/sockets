@@ -1,0 +1,11 @@
+.Chat-input {
+  height: 40px;
+  margin-top: auto;
+  margin-bottom: 0;
+  width: calc(100% - 31px);
+  font-size: 1rem;
+  padding-left: 15.5px;
+  padding-right: 15.5px;
+  border-radius: .5rem;
+  border: 1px solid #e1e4e8;
+}
